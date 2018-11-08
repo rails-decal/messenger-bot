@@ -1,4 +1,5 @@
 FROM ethanlee/whales
+RUN apk add nano
 WORKDIR /app
 ENV GEM_PATH=/gems
 ENV BUNDLE_PATH=/gems
